@@ -81,8 +81,8 @@ extern "C"
  *  PDCurses Type Declarations
  *
  */
-
-typedef unsigned char bool;    /* PDCurses Boolean type */
+#include <stdbool.h>
+//typedef unsigned char bool;    /* PDCurses Boolean type */
 
 #ifdef CHTYPE_LONG
 # if _LP64
